@@ -1,0 +1,49 @@
+.text-lg {
+  font-size: 1.5rem;
+}
+
+.font-mono {
+  font-family: "Fira Mono", "Menlo", "Monaco", "Consolas", monospace;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-gray-400 {
+  color: #a1a1aa;
+}
+
+.text-gray-500 {
+  color: #71717a;
+}
+
+.text-red-500 {
+  color: #ef4444;
+}
+
+.caret {
+  color: black;
+  background-color: #d4c179;
+  border-radius: 2px;
+}
+
+.caret-end {
+  display: inline-block;
+  width: 2px;
+  height: 1.25em;
+  background-color: #e2b714;
+  animation: blink 1s infinite;
+  vertical-align: middle;
+  margin-left: -1px;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}

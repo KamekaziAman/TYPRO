@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "tailwindcss";
+
+body {
+  background-color: #111111;
+}
+
+/* Light theme overrides */
+.theme-light {
+  background: #fff9f2 !important;
+  color: #1d1e1e !important;
+  transition: background 0.3s, color 0.3s;
+}
+
+.theme-light .font-logo,
+.theme-light .text-4xl,
+.theme-light .text-2xl,
+.theme-light .text-lg,
+.theme-light .text-md,
+.theme-light .text-gray-400,
+.theme-light .text-gray-100,
+.theme-light .text-white {
+  color: #1d1e1e !important;
+}
+
+.theme-light .keyboard {
+  background: #f3ede7 !important;
+  box-shadow: 0 4px 32px 0 rgba(0,0,0,0.08);
+}
+
+.theme-light .keyboard-key {
+  background: #fff !important;
+  color: #1d1e1e !important;
+  border: 1px solid #e0dcd6;
+}
+
+.theme-light .keyboard-key.ring-3 {
+  box-shadow: 0 0 0 3px #ecff5c;
+}
+
+.theme-light .caret,
+.theme-light .caret-end {
+  background: #ecff5c !important;
+  color: #1d1e1e !important;
+}
+
+.theme-light .text-red-500 {
+  color: #e74c3c !important;
+}
