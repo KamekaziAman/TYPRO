@@ -6,8 +6,8 @@ Here's a professional and clean `README.md` for your typing game project **TYPRO
 
 **TYPRO** is a minimalist and visually engaging typing speed test built for accuracy, speed, and fun. Whether you're looking to improve your typing skills or just want to challenge yourself, TYPRO is the perfect playground.
 
-![TYPRO Screenshot](![Uploading image.png…]()
-) <!-- Replace or update this line if you upload the image to GitHub -->
+<img width="1919" height="905" alt="image" src="https://github.com/user-attachments/assets/c4441a65-4107-4e5f-9caf-73568578ea74" />
+ <!-- Replace or update this line if you upload the image to GitHub -->
 
 ---
 
